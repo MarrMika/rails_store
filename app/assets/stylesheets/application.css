@@ -6,6 +6,10 @@ body > td {
   margin: 8px !important;
 }
 
+h1 {
+    text-align: center;
+}
+
 #banner {
   position: relative;
   min-height: 40px;
@@ -58,7 +62,8 @@ body > td {
                 list-style: none;
                 a {
                     color: #b55400;
-                    font-size: small;
+                    font-size: large;
+                    text-decoration: none
                 }
             }
         }
@@ -79,4 +84,4 @@ body > td {
     #banner .title {
         display: none;
     }
-} 
+}
