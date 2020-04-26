@@ -9,7 +9,8 @@ Product.create!(
 		/ без ОС / 2.78 кг / чорний
 		</p>},
 	image_url: 'lenovo-laptop.jpg',
-	price: 21 999)
+	price: 21999
+)
 
 Product.create!(
 	title: 'Ноутбук Apple MacBook Pro 13" Retina 128Gb (MUHQ2UA/A) Silver',
@@ -19,7 +20,8 @@ Product.create!(
 		/ Intel Iris Plus Graphics 645 / Wi-Fi / Bluetooth / MacOS Mojave / 1.37 кг / сріблястий
 		</p>},
 	image_url: 'macbook.jpg',
-	price: 41 499)
+	price: 41499
+)
 
 Product.create!(
 	title: 'Ноутбук Samsung L540-17IRH Gaming (81LL005YRA) Black',
@@ -29,5 +31,6 @@ Product.create!(
 		/ nVidia GeForce GTX 1650, 4 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / вебкамера / без ОС / 2.2 кг / темно-сірий
 		</p>},
 	image_url: 'samsung.jpg',
-	price: 22 999)
+	price: 22999
+)
 # . . .
