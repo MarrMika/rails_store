@@ -1,7 +1,6 @@
-Уважаемый(ая) <%= @order.name %>
-Администрация магазина Pragmatic Store благодарит Вас за недавний заказ.
-Вы заказали следующий товар:
+Dear, <%= @order.name %>
+Thank you for your recent order from The Computer Store.
+You ordered the following items:
 <%= render @order.line_items -%>
 
-Когда Ваш заказ будет отправлен, мы пошлем Вам по электронной почте отдельное
-сообщение.
+We will send you a separate e-mail when your order ships.

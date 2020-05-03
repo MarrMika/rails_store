@@ -45,7 +45,7 @@ class UserStoriesTest < ActionDispatch::IntegrationTest
       mail = ActionMailer::Base.deliveries.last
       assert_equal ["dave@example.com"], mail.to
       assert_equal 'Sam Ruby <depot@example.com>', mail[:from].value
-      assert_equal "Подтверждение заказа в Pragmatic Store", mail.subject
+      assert_equal "Computer Store Order Confirmation", mail.subject
     end
   end
 end
