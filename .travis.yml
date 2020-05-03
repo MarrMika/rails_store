@@ -1,0 +1,14 @@
+language: ruby
+
+before_install:
+  - gem install bundler
+  - nvm install 13
+
+rvm:
+- 2.7.0
+
+script:
+ - bundle install 
+ - bundle exec rake db:migrate
+ - bundle exec rake db:seed
+ - bundle exec rake test
