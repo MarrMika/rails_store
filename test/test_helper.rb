@@ -6,6 +6,7 @@ class ActionDispatch::IntegrationTest
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
 
+
   # Add more helper methods to be used by all tests here...
   def login_as(user)
     post login_url, params: { name: user.name, password: 'secret' }
@@ -17,5 +18,6 @@ class ActionDispatch::IntegrationTest
   
   def setup
     login_as users(:one)
+    self.default_url_options = { locale: I18n.default_locale }
   end
 end
