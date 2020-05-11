@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class OrderNotifierMailerTest < ActionMailer::TestCase
+  fixtures :all
+  
   test "received" do
     mail = OrderNotifierMailer.received(orders(:one))
     assert_equal "Computer Store Order Confirmation", mail.subject

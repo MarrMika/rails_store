@@ -62,3 +62,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.1.2' 
